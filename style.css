@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    color: navy;
+    border: 2px solid red;
+}
+
+p {
+    margin-left: 25px;
+}
+
+p .highlight {
+    color: red;
+}
+
+img {
+    border: 10px solid #202c39;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+h1, h2 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inherit;
+    text-align: center;
+    color: #202c39;
+}
+
+.bold {
+    font-weight: bold;
+
+}
+.stand-out {
+    background-color: #1deabe;
+}
+.no-bullet {
+    list-style-type: none;
+}
+
+.index {
+    color: white;
+    background-color: #202c39;
+    text-align: center;
+    font-size: 16px;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul {
+    list-style-type: square;
+    background-color: #f29559;
+    padding: 20px;
+    color: #202c39;
+
+}
+
+ul li {
+    background-color: #f2d492;
+}
+
+ol li,
+ul li {
+    margin: 5px;
+}
+
+div {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+a.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #1deabe;
+}
+
+#container {
+    text-align: center;
+}
+
+/* This is a class for box */
+.box {
+    width: 350px;
+    height: 150px;
+    margin: 50 auto ;
+    padding: 25px;
+    border: 5px dashed black;
+}
